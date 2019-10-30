@@ -48,7 +48,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="desciptionLabel" destination="fxp-Si-Hs2" id="eyH-wy-16N"/>
+                                    <outlet property="descriptionLabel" destination="fxp-Si-Hs2" id="PKg-ao-8sO"/>
                                     <outlet property="titleLabel" destination="czd-GL-TCK" id="Cn3-SJ-37A"/>
                                 </connections>
                             </tableViewCell>

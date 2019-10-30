@@ -42,7 +42,7 @@ extension ArticleViewModel{
         return self.article.title
     }
     
-    var desciption: String{
+    var description: String{
         return self.article.description
     }
 }

@@ -54,7 +54,7 @@ class NewsListTableViewController: UITableViewController{
         
         let articleVM = self.articleListVM.articleAtIndex(indexPath.row)
         cell.titleLabel.text = articleVM.title
-        cell.descriptionLabel.text = articleVM.desciption
+        cell.descriptionLabel.text = articleVM.description
         
         return cell
     }
