@@ -9,7 +9,7 @@
 import Foundation
 
 class WebService{
-    func getArticles(url: URL, completion: @escaping ([Any]?) -> ()){
+    func getArticles(url: URL, completion: @escaping ([Article]?) -> ()){
         URLSession.shared.dataTask(with: url, completionHandler: {data, response ,error in
             
             if let error = error{
@@ -17,7 +17,12 @@ class WebService{
                 completion(nil)
             } else if let data = data{
                 
-                print(data)
+                let articleList = try? JSONDecoder().decode(ArticleList.self, from: data)
+                
+                if let articles = articleList {
+                    completion(articleList?.articles)
+                    print(articles)
+                }
                 
             }
             
