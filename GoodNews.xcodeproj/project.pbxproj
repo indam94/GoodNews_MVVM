@@ -16,6 +16,7 @@
 		223E35312369F776000B1845 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E35302369F776000B1845 /* NewsListTableViewController.swift */; };
 		223E35342369FE7E000B1845 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E35332369FE7E000B1845 /* WebService.swift */; };
 		223E3537236A015C000B1845 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E3536236A015C000B1845 /* Article.swift */; };
+		223E3539236A0472000B1845 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E3538236A0472000B1845 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		223E35302369F776000B1845 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		223E35332369FE7E000B1845 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		223E3536236A015C000B1845 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		223E3538236A0472000B1845 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				223E35262369F6CF000B1845 /* LaunchScreen.storyboard */,
 				223E35292369F6CF000B1845 /* Info.plist */,
 				223E35212369F6CC000B1845 /* GoodNews.xcdatamodeld */,
+				223E3538236A0472000B1845 /* Constants.swift */,
 			);
 			path = GoodNews;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				223E35192369F6CC000B1845 /* AppDelegate.swift in Sources */,
 				223E3537236A015C000B1845 /* Article.swift in Sources */,
 				223E351B2369F6CC000B1845 /* SceneDelegate.swift in Sources */,
+				223E3539236A0472000B1845 /* Constants.swift in Sources */,
 				223E35342369FE7E000B1845 /* WebService.swift in Sources */,
 				223E35232369F6CC000B1845 /* GoodNews.xcdatamodeld in Sources */,
 			);
